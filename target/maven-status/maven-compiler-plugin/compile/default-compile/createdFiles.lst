@@ -1,0 +1,11 @@
+uk/ac/ucl/main/Main.class
+uk/ac/ucl/model/CategoryHandler.class
+uk/ac/ucl/model/AbstractHandler.class
+uk/ac/ucl/servlets/ShutdownServlet.class
+uk/ac/ucl/model/Model.class
+uk/ac/ucl/model/NoteHandler.class
+uk/ac/ucl/servlets/UpdateNoteServlet.class
+uk/ac/ucl/model/Category.class
+uk/ac/ucl/model/Note.class
+uk/ac/ucl/servlets/CreateNoteServlet.class
+uk/ac/ucl/model/ModelFactory.class

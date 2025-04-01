@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#page-title {
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 5rem;
+}
+
+
+.index-path-link {
+    text-decoration: none;
+    color: #000000 !important;
+}
+
+
+.index-path-link:hover {
+    color: #4d5154 !important;
+}
+
+
+.dropdown-link-style {
+    background: none;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    width: 100%;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.dropdown-link-element:hover {
+    font-weight: bold;
+}
