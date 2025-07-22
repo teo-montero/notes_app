@@ -1,12 +1,12 @@
-# 🗒️ Note Taking App
+# Note Taking App
 
 A web-based note-taking application built using **Java**, **JSP**, **Servlets**, **JavaScript**, and **Bootstrap**. This app features a clean and intuitive interface for creating, organizing, and managing notes efficiently.
 
 ---
 
-## ✨ Features
+## Features
 
-### 📝 Notes
+### Notes
 - Create notes with:
   - A **required title**
   - Optional **text content**
@@ -17,7 +17,7 @@ A web-based note-taking application built using **Java**, **JSP**, **Servlets**,
   - **Remove Text Content**
   - **Upload/Remove Image**
 
-### 📁 Indexes
+### Indexes
 - Notes are stored in named **indexes**, which support:
   - **Nested subindexes** (tree-like structure)
   - Sorting by:
@@ -27,21 +27,21 @@ A web-based note-taking application built using **Java**, **JSP**, **Servlets**,
 - Index actions apply **recursively** to all contained notes and subindexes.
 - Indexes can also be duplicated or deleted.
 
-### 🏷️ Categories
+### Categories
 - Notes can be tagged with one or more **categories**.
 - Categories can be **hidden**: notes under hidden categories will be excluded from views.
   
-### 🔍 Search
+### Search
 - Search notes by title and/or content.
 - Results ranked by **match percentage**, with title matches weighted more heavily than content matches.
 
 ---
 
-## ⚙️ Architecture
+## Architecture
 
 The application is built using the **Model-View-Controller (MVC)** architecture.
 
-### 🖼️ Frontend (View)
+### Frontend (View)
 - Built with **JSP**, combining Java with HTML, CSS, and **Bootstrap**.
 - Key JSP pages:
   - `index.jsp` — Main entry point that dynamically includes:
@@ -53,7 +53,7 @@ The application is built using the **Model-View-Controller (MVC)** architecture.
   - `createNote.jsp` — Form for creating a new note
   - `editNote.jsp` — Interface for editing existing notes
 
-### 🔧 Backend (Model + Controller)
+### Backend (Model + Controller)
 - Uses an **object-oriented approach**.
 - JSP pages submit requests to **Servlets**, which act as controllers.
 - Each Servlet:
@@ -64,17 +64,6 @@ The application is built using the **Model-View-Controller (MVC)** architecture.
   - `IndexHandler`
   - `NoteHandler`
   - `CategoryHandler`
-
----
-
-## 📦 Tech Stack
-
-- **Java**
-- **JSP**
-- **Servlets**
-- **HTML/CSS**
-- **Bootstrap**
-- **JavaScript**
 
 ---
 
